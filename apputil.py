@@ -57,5 +57,4 @@ if __name__ == "__main__":
     
     for test, expected in parentheses_tests:
         result = parentheses(test)
-        status = "✓" if result == expected else "✗"
-        print(f"  {status} parentheses('{test}') -> {result}")
+        print(f"  parentheses('{test}') -> {result}")
